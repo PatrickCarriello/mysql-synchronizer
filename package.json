@@ -1,0 +1,28 @@
+{
+  "name": "mysql-synchronizer",
+  "version": "1.0.0",
+  "description": "MySQL Synchronizer is a simple way to synchronize two MySQL databases with the same structure",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PatrickCarriello/mysql-synchronizer.git"
+  },
+  "keywords": [
+    "mysql",
+    "synchronization"
+  ],
+  "author": "Patrick Carriello",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PatrickCarriello/mysql-synchronizer/issues"
+  },
+  "homepage": "https://github.com/PatrickCarriello/mysql-synchronizer#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "node-cron": "^3.0.3",
+    "sync-mysql": "^3.0.1"
+  }
+}
